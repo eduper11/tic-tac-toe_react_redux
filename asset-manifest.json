@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/eduper11/tic-tac-toe_react_redux/static/css/main.f531aebe.chunk.css",
+    "main.js": "/eduper11/tic-tac-toe_react_redux/static/js/main.411d5186.chunk.js",
+    "main.js.map": "/eduper11/tic-tac-toe_react_redux/static/js/main.411d5186.chunk.js.map",
+    "runtime-main.js": "/eduper11/tic-tac-toe_react_redux/static/js/runtime-main.8d700cc6.js",
+    "runtime-main.js.map": "/eduper11/tic-tac-toe_react_redux/static/js/runtime-main.8d700cc6.js.map",
+    "static/js/2.db9e14e3.chunk.js": "/eduper11/tic-tac-toe_react_redux/static/js/2.db9e14e3.chunk.js",
+    "static/js/2.db9e14e3.chunk.js.map": "/eduper11/tic-tac-toe_react_redux/static/js/2.db9e14e3.chunk.js.map",
+    "index.html": "/eduper11/tic-tac-toe_react_redux/index.html",
+    "precache-manifest.615f1f807d4584e8408cc8dc03426548.js": "/eduper11/tic-tac-toe_react_redux/precache-manifest.615f1f807d4584e8408cc8dc03426548.js",
+    "service-worker.js": "/eduper11/tic-tac-toe_react_redux/service-worker.js",
+    "static/css/main.f531aebe.chunk.css.map": "/eduper11/tic-tac-toe_react_redux/static/css/main.f531aebe.chunk.css.map",
+    "static/js/2.db9e14e3.chunk.js.LICENSE.txt": "/eduper11/tic-tac-toe_react_redux/static/js/2.db9e14e3.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/eduper11/tic-tac-toe_react_redux/static/media/Inter.var.f065685b.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d700cc6.js",
+    "static/js/2.db9e14e3.chunk.js",
+    "static/css/main.f531aebe.chunk.css",
+    "static/js/main.411d5186.chunk.js"
+  ]
+}
