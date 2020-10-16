@@ -1,0 +1,60 @@
+.cell {
+    flex: 1;
+    padding-top: calc(100% / 6 - 2.9rem);
+    padding-bottom: calc(100% / 6 - 2.9rem);
+    font-size: 8rem;
+    line-height: 5.7rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 0.4rem solid #fff;
+    margin-left: -0.2rem;
+    margin-top: -0.2rem;
+
+    &.done {
+        color: #fff;
+    }
+
+    &.cell-0,
+    &.cell-1,
+    &.cell-2 {
+        border-top: none;
+    }
+
+    &.cell-0,
+    &.cell-3,
+    &.cell-6 {
+        border-left: none;
+    }
+
+    &.cell-6,
+    &.cell-7,
+    &.cell-8 {
+        border-bottom: none;
+    }
+
+    &.cell-2,
+    &.cell-5,
+    &.cell-8 {
+        border-right: none;
+    }
+}
+
+.main > .board.full > .board-row > .cell {
+    cursor: default;
+}
+
+.main > .board:not(.full) > .board-row > .cell:not(.done):hover {
+    cursor: pointer;
+    background-color: #111;
+    color: #111;
+}
+
+@media (max-width: 1400px) {
+    .cell {
+        padding-top: calc(100% / 6 - 1.7rem);
+        padding-bottom: calc(100% / 6 - 1.7rem);
+        font-size: 5rem;
+        line-height: 3.3rem;
+    }
+}

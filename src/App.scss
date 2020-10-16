@@ -1,0 +1,14 @@
+.app {
+    width: 100%;
+    max-width: 64rem;
+    min-width: 36rem;
+    margin: 4rem auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0.5rem 3rem 0;
+}
+
+@media (max-width: 1400px) {
+    .app {
+        max-width: 50rem;
+        margin: 1rem auto;
+    }
+}

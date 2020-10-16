@@ -1,0 +1,133 @@
+.board {
+    position: relative;
+    width: 34rem;
+
+    &::after {
+        content: '';
+        position: absolute;
+        background-color: #2ab7ca;
+        transition: 0.7s;
+        -webkit-transition: 0.7s;
+        -moz-transition: 0.7s;
+        -o-transition: 0.7s;
+    }
+
+    /* Horizonal Lines */
+
+    &.h {
+        &::after {
+            width: 0%;
+            height: 0.3rem;
+            left: 0;
+            transform: translateY(-50%);
+        }
+        &.full::after {
+            width: 100%;
+        }
+    }
+
+    &.h0 {
+        &::after {
+            top: calc(100% / 6);
+        }
+    }
+
+    &.h1 {
+        &::after {
+            top: 50%;
+        }
+    }
+
+    &.h2 {
+        &::after {
+            top: calc(5 * 100% / 6);
+        }
+    }
+
+    /* Vertical Lines */
+
+    &.v {
+        &::after {
+            height: 0%;
+            width: 3px;
+            top: 0;
+            transform: translateX(-50%);
+        }
+
+        &.full {
+            &::after {
+                height: 100%;
+            }
+        }
+    }
+
+    &.v0 {
+        &::after {
+            left: calc(100% / 6);
+        }
+    }
+
+    &.v1 {
+        &::after {
+            left: 50%;
+        }
+    }
+
+    &.v2 {
+        &::after {
+            left: calc(5 * 100% / 6);
+        }
+    }
+
+    /* Diagonal Lines */
+
+    &.d0 {
+        &::after {
+            height: 0%;
+            width: 3px;
+            left: 0;
+            top: 0;
+            transform: rotateZ(-45deg);
+            transform-origin: 50% 0;
+            transition: height 0.7s;
+            -webkit-transition: height 0.7s;
+            -moz-transition: height 0.7s;
+            -o-transition: height 0.7s;
+        }
+
+        &.full {
+            &::after {
+                height: 140%;
+            }
+        }
+    }
+
+    &.d1 {
+        &::after {
+            height: 0%;
+            width: 3px;
+            right: 0;
+            top: 0;
+            transform: rotateZ(45deg);
+            transform-origin: 50% 0;
+            transition: height 0.7s;
+            -webkit-transition: height 0.7s;
+            -moz-transition: height 0.7s;
+            -o-transition: height 0.7s;
+        }
+
+        &.full {
+            &::after {
+                height: 140%;
+            }
+        }
+    }
+
+    /* Draw winning line*/
+
+    .board-row {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+    }
+}

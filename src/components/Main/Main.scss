@@ -1,0 +1,46 @@
+@import './components/Board/Board.scss';
+@import './components/Cell/Cell.scss';
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+
+    .info {
+        color: #fff;
+        text-align: center;
+        padding: 5rem 0;
+        font-size: 2rem;
+    }
+
+    .game-info {
+        text-align: center;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+        color: white;
+        font-size: 1.5rem;
+
+        &__button {
+            margin-left: 1rem;
+            padding: 0.8rem 1.4rem;
+            background-color: #fcdd82;
+            font: normal 1.5rem 'Inter var';
+            border-radius: 0.3rem;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .main {
+        padding: 0 12rem;
+        .info {
+            padding: 2rem 0;
+            font-size: 1.2rem;
+        }
+    }
+}

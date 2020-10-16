@@ -1,0 +1,31 @@
+@import url(./fonts/Inter/inter.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Inter var', sans-serif;
+    font-size: 10px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
