@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/github.io/tic-tac-toe_react_redux/static/css/main.327a0542.chunk.css",
-    "main.js": "/github.io/tic-tac-toe_react_redux/static/js/main.b5cfeab7.chunk.js",
-    "main.js.map": "/github.io/tic-tac-toe_react_redux/static/js/main.b5cfeab7.chunk.js.map",
-    "runtime-main.js": "/github.io/tic-tac-toe_react_redux/static/js/runtime-main.3f13ba14.js",
-    "runtime-main.js.map": "/github.io/tic-tac-toe_react_redux/static/js/runtime-main.3f13ba14.js.map",
-    "static/js/2.db9e14e3.chunk.js": "/github.io/tic-tac-toe_react_redux/static/js/2.db9e14e3.chunk.js",
-    "static/js/2.db9e14e3.chunk.js.map": "/github.io/tic-tac-toe_react_redux/static/js/2.db9e14e3.chunk.js.map",
-    "index.html": "/github.io/tic-tac-toe_react_redux/index.html",
-    "precache-manifest.dbb96874ff351e46c843e8474f39027b.js": "/github.io/tic-tac-toe_react_redux/precache-manifest.dbb96874ff351e46c843e8474f39027b.js",
-    "service-worker.js": "/github.io/tic-tac-toe_react_redux/service-worker.js",
-    "static/css/main.327a0542.chunk.css.map": "/github.io/tic-tac-toe_react_redux/static/css/main.327a0542.chunk.css.map",
-    "static/js/2.db9e14e3.chunk.js.LICENSE.txt": "/github.io/tic-tac-toe_react_redux/static/js/2.db9e14e3.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/github.io/tic-tac-toe_react_redux/static/media/Inter.var.f065685b.woff2"
+    "main.css": "/static/css/main.faea930f.chunk.css",
+    "main.js": "/static/js/main.0d4f3790.chunk.js",
+    "main.js.map": "/static/js/main.0d4f3790.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.02030f09.js",
+    "runtime-main.js.map": "/static/js/runtime-main.02030f09.js.map",
+    "static/js/2.db9e14e3.chunk.js": "/static/js/2.db9e14e3.chunk.js",
+    "static/js/2.db9e14e3.chunk.js.map": "/static/js/2.db9e14e3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1e38293019a33532d721f1addd8fca44.js": "/precache-manifest.1e38293019a33532d721f1addd8fca44.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.faea930f.chunk.css.map": "/static/css/main.faea930f.chunk.css.map",
+    "static/js/2.db9e14e3.chunk.js.LICENSE.txt": "/static/js/2.db9e14e3.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/Inter.var.f065685b.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f13ba14.js",
+    "static/js/runtime-main.02030f09.js",
     "static/js/2.db9e14e3.chunk.js",
-    "static/css/main.327a0542.chunk.css",
-    "static/js/main.b5cfeab7.chunk.js"
+    "static/css/main.faea930f.chunk.css",
+    "static/js/main.0d4f3790.chunk.js"
   ]
 }
